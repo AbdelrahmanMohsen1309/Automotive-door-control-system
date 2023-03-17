@@ -1,0 +1,211 @@
+Dependencies for Project 'ECU1', Target 'ECU1': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (.\Startup.s)(0x559D2F20)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips--pd "__UVISION_VERSION SETA 529"--list .\listings\startup.lst --xref -o .\objects\startup.o --depend .\objects\startup.d)
+F (.\Application\InputControlUnit.c)(0x64044AD3)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\Libraries -I .\OS\include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="529"-o .\objects\inputcontrolunit.o --omf_browse .\objects\inputcontrolunit.crf --depend .\objects\inputcontrolunit.d)
+I (.\Libraries\InputControlUnit.h)(0x64044A69)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B267A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9B267A)
+I (.\OS\include\FreeRTOS.h)(0x6393C2FE)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B2678)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B2678)
+I (.\Libraries\FreeRTOSConfig.h)(0x63F51E3D)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559D2F68)
+I (.\OS\include\projdefs.h)(0x6393C2FE)
+I (.\OS\include\portable.h)(0x6393C2FE)
+I (.\OS\include\deprecated_definitions.h)(0x6393C2FE)
+I (.\OS\include\portmacro.h)(0x6393C2FE)
+I (.\OS\include\mpu_wrappers.h)(0x6393C2FE)
+I (.\OS\include\task.h)(0x6393C2FE)
+I (.\OS\include\list.h)(0x6393C2FE)
+I (.\OS\include\queue.h)(0x6393C2FE)
+I (.\Libraries\SensorMng.h)(0x6401F244)
+I (.\Libraries\DoorSensor.h)(0x6401F23E)
+I (.\Libraries\GPIO.h)(0x6401F5F3)
+I (.\Libraries\CONFIGURATIONS.h)(0x63FF1548)
+I (.\Libraries\Common_Macros.h)(0x6400B325)
+I (.\Libraries\SpeedSensor.h)(0x63FF37D4)
+I (.\Libraries\LightSwitch.h)(0x63FF3819)
+I (.\Libraries\CommMng.h)(0x6400B7F8)
+I (.\Libraries\CAN.h)(0x6400B8D3)
+F (.\Services\CommMng.c)(0x6400B81E)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\Libraries -I .\OS\include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="529"-o .\objects\commmng.o --omf_browse .\objects\commmng.crf --depend .\objects\commmng.d)
+I (.\Libraries\CommMng.h)(0x6400B7F8)
+I (.\Libraries\CAN.h)(0x6400B8D3)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B2678)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B2678)
+I (.\Libraries\Common_Macros.h)(0x6400B325)
+F (.\Services\SensorMng.c)(0x6401F200)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\Libraries -I .\OS\include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="529"-o .\objects\sensormng.o --omf_browse .\objects\sensormng.crf --depend .\objects\sensormng.d)
+I (.\Libraries\SensorMng.h)(0x6401F244)
+I (.\Libraries\DoorSensor.h)(0x6401F23E)
+I (.\Libraries\GPIO.h)(0x6401F5F3)
+I (.\Libraries\CONFIGURATIONS.h)(0x63FF1548)
+I (.\Libraries\Common_Macros.h)(0x6400B325)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559D2F68)
+I (.\Libraries\SpeedSensor.h)(0x63FF37D4)
+I (.\Libraries\LightSwitch.h)(0x63FF3819)
+F (.\HAL\DoorSensor.c)(0x6401F70A)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\Libraries -I .\OS\include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="529"-o .\objects\doorsensor.o --omf_browse .\objects\doorsensor.crf --depend .\objects\doorsensor.d)
+I (.\Libraries\DoorSensor.h)(0x6401F23E)
+I (.\Libraries\GPIO.h)(0x6401F5F3)
+I (.\Libraries\CONFIGURATIONS.h)(0x63FF1548)
+I (.\Libraries\Common_Macros.h)(0x6400B325)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559D2F68)
+F (.\HAL\LightSwitch.c)(0x6401F70A)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\Libraries -I .\OS\include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="529"-o .\objects\lightswitch.o --omf_browse .\objects\lightswitch.crf --depend .\objects\lightswitch.d)
+I (.\Libraries\LightSwitch.h)(0x63FF3819)
+I (.\Libraries\GPIO.h)(0x6401F5F3)
+I (.\Libraries\CONFIGURATIONS.h)(0x63FF1548)
+I (.\Libraries\Common_Macros.h)(0x6400B325)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559D2F68)
+F (.\HAL\SpeedSensor.c)(0x6401F70A)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\Libraries -I .\OS\include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="529"-o .\objects\speedsensor.o --omf_browse .\objects\speedsensor.crf --depend .\objects\speedsensor.d)
+I (.\Libraries\SpeedSensor.h)(0x63FF37D4)
+I (.\Libraries\GPIO.h)(0x6401F5F3)
+I (.\Libraries\CONFIGURATIONS.h)(0x63FF1548)
+I (.\Libraries\Common_Macros.h)(0x6400B325)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559D2F68)
+F (.\MCAL\CAN.c)(0x6400B8BC)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\Libraries -I .\OS\include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="529"-o .\objects\can.o --omf_browse .\objects\can.crf --depend .\objects\can.d)
+I (.\Libraries\CAN.h)(0x6400B8D3)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B2678)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B2678)
+F (.\MCAL\GPIO.c)(0x64044AA6)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\Libraries -I .\OS\include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="529"-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B2678)
+I (.\Libraries\Common_Macros.h)(0x6400B325)
+I (.\Libraries\GPIO.h)(0x6401F5F3)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559D2F68)
+F (.\OS\croutine.c)(0x6393C2FE)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\Libraries -I .\OS\include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="529"-o .\objects\croutine.o --omf_browse .\objects\croutine.crf --depend .\objects\croutine.d)
+I (.\OS\include\FreeRTOS.h)(0x6393C2FE)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B2678)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B2678)
+I (.\Libraries\FreeRTOSConfig.h)(0x63F51E3D)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559D2F68)
+I (.\OS\include\projdefs.h)(0x6393C2FE)
+I (.\OS\include\portable.h)(0x6393C2FE)
+I (.\OS\include\deprecated_definitions.h)(0x6393C2FE)
+I (.\OS\include\portmacro.h)(0x6393C2FE)
+I (.\OS\include\mpu_wrappers.h)(0x6393C2FE)
+I (.\OS\include\task.h)(0x6393C2FE)
+I (.\OS\include\list.h)(0x6393C2FE)
+I (.\OS\include\croutine.h)(0x6393C2FE)
+F (.\OS\event_groups.c)(0x6393C2FE)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\Libraries -I .\OS\include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="529"-o .\objects\event_groups.o --omf_browse .\objects\event_groups.crf --depend .\objects\event_groups.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B267A)
+I (.\OS\include\FreeRTOS.h)(0x6393C2FE)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B2678)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B2678)
+I (.\Libraries\FreeRTOSConfig.h)(0x63F51E3D)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559D2F68)
+I (.\OS\include\projdefs.h)(0x6393C2FE)
+I (.\OS\include\portable.h)(0x6393C2FE)
+I (.\OS\include\deprecated_definitions.h)(0x6393C2FE)
+I (.\OS\include\portmacro.h)(0x6393C2FE)
+I (.\OS\include\mpu_wrappers.h)(0x6393C2FE)
+I (.\OS\include\task.h)(0x6393C2FE)
+I (.\OS\include\list.h)(0x6393C2FE)
+I (.\OS\include\timers.h)(0x6393C2FE)
+I (.\OS\include\event_groups.h)(0x6393C2FE)
+F (.\OS\heap_2.c)(0x6393C2FE)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\Libraries -I .\OS\include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="529"-o .\objects\heap_2.o --omf_browse .\objects\heap_2.crf --depend .\objects\heap_2.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B267A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9B2678)
+I (.\OS\include\FreeRTOS.h)(0x6393C2FE)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B2678)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B2678)
+I (.\Libraries\FreeRTOSConfig.h)(0x63F51E3D)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559D2F68)
+I (.\OS\include\projdefs.h)(0x6393C2FE)
+I (.\OS\include\portable.h)(0x6393C2FE)
+I (.\OS\include\deprecated_definitions.h)(0x6393C2FE)
+I (.\OS\include\portmacro.h)(0x6393C2FE)
+I (.\OS\include\mpu_wrappers.h)(0x6393C2FE)
+I (.\OS\include\task.h)(0x6393C2FE)
+I (.\OS\include\list.h)(0x6393C2FE)
+F (.\OS\list.c)(0x6393C2FE)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\Libraries -I .\OS\include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="529"-o .\objects\list.o --omf_browse .\objects\list.crf --depend .\objects\list.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B267A)
+I (.\OS\include\FreeRTOS.h)(0x6393C2FE)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B2678)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B2678)
+I (.\Libraries\FreeRTOSConfig.h)(0x63F51E3D)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559D2F68)
+I (.\OS\include\projdefs.h)(0x6393C2FE)
+I (.\OS\include\portable.h)(0x6393C2FE)
+I (.\OS\include\deprecated_definitions.h)(0x6393C2FE)
+I (.\OS\include\portmacro.h)(0x6393C2FE)
+I (.\OS\include\mpu_wrappers.h)(0x6393C2FE)
+I (.\OS\include\list.h)(0x6393C2FE)
+F (.\OS\port.c)(0x6393C2FE)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\Libraries -I .\OS\include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="529"-o .\objects\port.o --omf_browse .\objects\port.crf --depend .\objects\port.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B267A)
+I (.\OS\include\FreeRTOS.h)(0x6393C2FE)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B2678)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B2678)
+I (.\Libraries\FreeRTOSConfig.h)(0x63F51E3D)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559D2F68)
+I (.\OS\include\projdefs.h)(0x6393C2FE)
+I (.\OS\include\portable.h)(0x6393C2FE)
+I (.\OS\include\deprecated_definitions.h)(0x6393C2FE)
+I (.\OS\include\portmacro.h)(0x6393C2FE)
+I (.\OS\include\mpu_wrappers.h)(0x6393C2FE)
+I (.\OS\include\task.h)(0x6393C2FE)
+I (.\OS\include\list.h)(0x6393C2FE)
+F (.\OS\portASM.s)(0x6393C2FE)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips--pd "__UVISION_VERSION SETA 529"--list .\listings\portasm.lst --xref -o .\objects\portasm.o --depend .\objects\portasm.d)
+I (OS\portmacro.inc)(0x6393C2FE)
+F (.\OS\queue.c)(0x6393C2FE)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\Libraries -I .\OS\include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="529"-o .\objects\queue.o --omf_browse .\objects\queue.crf --depend .\objects\queue.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B267A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9B2678)
+I (.\OS\include\FreeRTOS.h)(0x6393C2FE)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B2678)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B2678)
+I (.\Libraries\FreeRTOSConfig.h)(0x63F51E3D)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559D2F68)
+I (.\OS\include\projdefs.h)(0x6393C2FE)
+I (.\OS\include\portable.h)(0x6393C2FE)
+I (.\OS\include\deprecated_definitions.h)(0x6393C2FE)
+I (.\OS\include\portmacro.h)(0x6393C2FE)
+I (.\OS\include\mpu_wrappers.h)(0x6393C2FE)
+I (.\OS\include\task.h)(0x6393C2FE)
+I (.\OS\include\list.h)(0x6393C2FE)
+I (.\OS\include\queue.h)(0x6393C2FE)
+F (.\OS\stream_buffer.c)(0x6393C2FE)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\Libraries -I .\OS\include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="529"-o .\objects\stream_buffer.o --omf_browse .\objects\stream_buffer.crf --depend .\objects\stream_buffer.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B2678)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9B2678)
+I (.\OS\include\FreeRTOS.h)(0x6393C2FE)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B2678)
+I (.\Libraries\FreeRTOSConfig.h)(0x63F51E3D)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559D2F68)
+I (.\OS\include\projdefs.h)(0x6393C2FE)
+I (.\OS\include\portable.h)(0x6393C2FE)
+I (.\OS\include\deprecated_definitions.h)(0x6393C2FE)
+I (.\OS\include\portmacro.h)(0x6393C2FE)
+I (.\OS\include\mpu_wrappers.h)(0x6393C2FE)
+I (.\OS\include\task.h)(0x6393C2FE)
+I (.\OS\include\list.h)(0x6393C2FE)
+I (.\OS\include\stream_buffer.h)(0x6393C2FE)
+F (.\OS\tasks.c)(0x6393C2FE)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\Libraries -I .\OS\include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="529"-o .\objects\tasks.o --omf_browse .\objects\tasks.crf --depend .\objects\tasks.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B267A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9B2678)
+I (.\OS\include\FreeRTOS.h)(0x6393C2FE)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B2678)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B2678)
+I (.\Libraries\FreeRTOSConfig.h)(0x63F51E3D)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559D2F68)
+I (.\OS\include\projdefs.h)(0x6393C2FE)
+I (.\OS\include\portable.h)(0x6393C2FE)
+I (.\OS\include\deprecated_definitions.h)(0x6393C2FE)
+I (.\OS\include\portmacro.h)(0x6393C2FE)
+I (.\OS\include\mpu_wrappers.h)(0x6393C2FE)
+I (.\OS\include\task.h)(0x6393C2FE)
+I (.\OS\include\list.h)(0x6393C2FE)
+I (.\OS\include\timers.h)(0x6393C2FE)
+I (.\OS\include\stack_macros.h)(0x6393C2FE)
+F (.\OS\timers.c)(0x6393C2FE)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\Libraries -I .\OS\include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="529"-o .\objects\timers.o --omf_browse .\objects\timers.crf --depend .\objects\timers.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B267A)
+I (.\OS\include\FreeRTOS.h)(0x6393C2FE)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B2678)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B2678)
+I (.\Libraries\FreeRTOSConfig.h)(0x63F51E3D)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559D2F68)
+I (.\OS\include\projdefs.h)(0x6393C2FE)
+I (.\OS\include\portable.h)(0x6393C2FE)
+I (.\OS\include\deprecated_definitions.h)(0x6393C2FE)
+I (.\OS\include\portmacro.h)(0x6393C2FE)
+I (.\OS\include\mpu_wrappers.h)(0x6393C2FE)
+I (.\OS\include\task.h)(0x6393C2FE)
+I (.\OS\include\list.h)(0x6393C2FE)
+I (.\OS\include\queue.h)(0x6393C2FE)
+I (.\OS\include\timers.h)(0x6393C2FE)
+F (.\Libraries\CONFIGURATIONS.h)(0x63FF1548)()
+F (.\Libraries\FreeRTOSConfig.h)(0x63F51E3D)()

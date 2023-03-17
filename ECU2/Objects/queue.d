@@ -1,0 +1,16 @@
+.\objects\queue.o: OS\queue.c
+.\objects\queue.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\queue.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\queue.o: .\OS\include\FreeRTOS.h
+.\objects\queue.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\queue.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\queue.o: .\Libraries\FreeRTOSConfig.h
+.\objects\queue.o: C:\Keil_v5\ARM\INC\Philips\lpc21xx.h
+.\objects\queue.o: .\OS\include\projdefs.h
+.\objects\queue.o: .\OS\include\portable.h
+.\objects\queue.o: .\OS\include\deprecated_definitions.h
+.\objects\queue.o: .\OS\portable\RVDS\ARM7_LPC21xx\portmacro.h
+.\objects\queue.o: .\OS\include\mpu_wrappers.h
+.\objects\queue.o: .\OS\include\task.h
+.\objects\queue.o: .\OS\include\list.h
+.\objects\queue.o: .\OS\include\queue.h

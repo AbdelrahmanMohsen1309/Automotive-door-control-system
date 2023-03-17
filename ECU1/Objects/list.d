@@ -1,0 +1,13 @@
+.\objects\list.o: OS\list.c
+.\objects\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\list.o: .\OS\include\FreeRTOS.h
+.\objects\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\list.o: .\Libraries\FreeRTOSConfig.h
+.\objects\list.o: C:\Keil_v5\ARM\INC\Philips\lpc21xx.h
+.\objects\list.o: .\OS\include\projdefs.h
+.\objects\list.o: .\OS\include\portable.h
+.\objects\list.o: .\OS\include\deprecated_definitions.h
+.\objects\list.o: .\OS\include\portmacro.h
+.\objects\list.o: .\OS\include\mpu_wrappers.h
+.\objects\list.o: .\OS\include\list.h

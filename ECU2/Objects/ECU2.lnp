@@ -1,0 +1,23 @@
+--cpu ARM7TDMI
+".\objects\startup.o"
+".\objects\outputcontrolunit.o"
+".\objects\can.o"
+".\objects\gpio.o"
+".\objects\timer.o"
+".\objects\buzzer.o"
+".\objects\lights.o"
+".\objects\croutine.o"
+".\objects\event_groups.o"
+".\objects\list.o"
+".\objects\queue.o"
+".\objects\stream_buffer.o"
+".\objects\tasks.o"
+".\objects\timers.o"
+".\objects\portasm.o"
+".\objects\heap_2.o"
+".\objects\port.o"
+".\objects\commmng.o"
+".\objects\extdvsmng.o"
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x40000000 --strict --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\ECU2.map" -o .\Objects\ECU2.axf
